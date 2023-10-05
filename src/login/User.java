@@ -14,8 +14,6 @@ public class User {
 			conn = DriverManager.getConnection(url);
 		} catch (Exception e) { }
 		return conn;}
-	}
-
 public String nome="";
 public boolean result = false;
 public boolean verificarUsuario(String login, String senha) {
