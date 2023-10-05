@@ -23,36 +23,4 @@
 1. Não há o fechamento esperado do recurso Connection. 
 2. Não há o fechamento esperado do recurso Statement.
 3. Não há o fechamentoe sperado do recurso ResultSet.
-
-# Fluxo do Código Fonte
-## Extração de dados: 
-![](images/ExtraçãoDeDados.png)
-## Grafo de Fluxograma:
-![](images/GrafodeFluxograma.png)
-### Cálculo da Complexidade Ciclomática
-V(G) = 4 REGIÕES.
-
-V(G) = 17 ARESTAS.
-
-V(G) = 14 NÓS.
-
-CÁLCULO: V(G) = (ARESTAS – NÓS) + 2 = 5
-### Conjunto Base de Caminhos
-CAMINHO 1  = 1; 2; 3; 5; 6; 7; 8; 9; 10; 11; 12; 14.
-
-CAMINHO 2 = 1; 2; 3; 5; 6; 7; 8; 9; 10; 11; 14.
-
-CAMINHO 3 = 1; 2; 3; 5; 6; 7; 8; 9; 10; 11; 13; 14.
-
-CAMINHO 4 = 1; 2; 3; 5; 6; 7; 8; 9; 10; 11; 12; 13; 14.
-
-CAMINHO 5 = 1; 2; 3; 4; 5; 6; 7; 8; 9; 10; 11; 12; 14.
-
-CAMINHO 6 = 1; 2; 3; 4; 5; 6; 7; 8; 9; 10; 11; 14. 
-
-CAMINHO 7 = 1; 2; 3; 4; 5; 6; 7; 8; 9; 10; 11; 13; 14. 
-
-CAMINHO 8 = 1; 2; 3; 4; 5; 6; 7; 8; 9; 10; 11; 12; 13; 14. 
-
-TOTAL DE CAMINHOS: 8.
-## Última atualização: 05/10/2023
+## Última atualização: 28/09/2023
